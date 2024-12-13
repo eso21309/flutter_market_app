@@ -68,7 +68,7 @@ class AddressSearchPage extends StatelessWidget {
                           onTap: () {
                             Navigator.push(context,
                                 MaterialPageRoute(builder: (context) {
-                              return JoinPage();
+                              return JoinPage(item);
                             }));
                           },
                           child: Container(
